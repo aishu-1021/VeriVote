@@ -21,6 +21,8 @@ INSTALLED_APPS = [
     'booth',
     'fraud_detection',
     'audit_chain',
+    'federated',
+    'aadhaar',
 ]
 
 MIDDLEWARE = [
@@ -34,7 +36,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'verivote.urls'
+ROOT_URLCONF = 'VeriVote.urls'
 
 TEMPLATES = [
     {
@@ -51,7 +53,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'verivote.wsgi.application'
+WSGI_APPLICATION = 'VeriVote.wsgi.application'
 
 DATABASES = {
     'default': {
@@ -68,7 +70,7 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 LANGUAGE_CODE = 'en-us'
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Kolkata'
 USE_I18N = True
 USE_TZ = True
 

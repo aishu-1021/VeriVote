@@ -472,3 +472,126 @@
 }
 
 .btn-secondary:hover { background: var(--gray-100); }
+
+/* ── Add these to your existing Enroll.css ─────────────────────── */
+
+/* Webcam */
+.webcam-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background: #000;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.webcam-video {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+}
+
+.webcam-capture-btn {
+  background: #008080;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 24px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+}
+
+.webcam-capture-btn:hover { background: #006666; }
+
+.webcam-preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.webcam-preview-img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+  border: 3px solid #008080;
+}
+
+.webcam-open-btn {
+  width: 100%;
+  padding: 40px;
+  background: #f0f7f7;
+  border: 2px dashed #66b2b2;
+  border-radius: 10px;
+  color: #008080;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.webcam-open-btn:hover { background: #e0f0f0; }
+
+/* Aadhaar verify button */
+.aadhaar-verify-btn {
+  width: 100%;
+  padding: 12px;
+  background: #004c4c;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.aadhaar-verify-btn:disabled { opacity: 0.6; cursor: not-allowed; }
+.aadhaar-verify-btn:hover:not(:disabled) { background: #006666; }
+
+/* Aadhaar result */
+.aadhaar-result {
+  border-radius: 8px;
+  padding: 14px;
+  margin-top: 12px;
+}
+
+.aadhaar-ok   { background: #f0fdf4; border: 1px solid #bbf7d0; }
+.aadhaar-fail { background: #fef2f2; border: 1px solid #fecaca; }
+
+.ar-title {
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.ar-details {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  font-size: 13px;
+  color: #374151;
+  margin-bottom: 8px;
+}
+
+.ar-face {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 6px;
+  margin-top: 6px;
+}
+
+.face-ok   { background: #dcfce7; color: #166534; }
+.face-fail { background: #fef2f2; color: #991b1b; }
+.face-skip { background: #fefce8; color: #854d0e; }
+
+/* Checklist status */
+.status-fail { color: #dc2626; font-weight: 700; }
+.checklist-item.fail { border-left-color: #dc2626; background: #fef2f2; }

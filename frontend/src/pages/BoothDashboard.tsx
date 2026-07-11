@@ -115,6 +115,7 @@ export default function BoothDashboard() {
         <a href="#" className="active">Booth Dashboard</a>
         <a href="#" onClick={() => navigate('/booth/verify')}>Voter Verification</a>
         <a href="#" onClick={() => navigate('/booth/reports')}>Reports</a>
+        <a href="#" onClick={() => navigate('/analytics')}>Analytics</a>
         <button className="booth-logout-btn" onClick={handleLogout}>Logout</button>
       </nav>
 

@@ -7,6 +7,7 @@ import BoothLogin from './pages/BoothLogin'
 import BoothDashboard from './pages/BoothDashboard'
 import BoothVerify from './pages/BoothVerify'
 import Reports from './pages/Reports'
+import Analytics from './pages/Analytics'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/booth/dashboard" element={<BoothDashboard />} />
         <Route path="/booth/verify" element={<BoothVerify />} />
         <Route path="/booth/reports" element={<Reports />} />
+        <Route path="/analytics" element={<Analytics />} />
       </Routes>
     </BrowserRouter>
   )

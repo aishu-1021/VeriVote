@@ -1,0 +1,35 @@
+[
+  {
+    "round": 1,
+    "global_avg_anomaly_score": -0.47658710181713104,
+    "total_flagged_across_booths": 44,
+    "per_booth_flagged": [
+      11,
+      11,
+      11,
+      11
+    ]
+  },
+  {
+    "round": 2,
+    "global_avg_anomaly_score": -0.47658710181713104,
+    "total_flagged_across_booths": 44,
+    "per_booth_flagged": [
+      11,
+      11,
+      11,
+      11
+    ]
+  },
+  {
+    "round": 3,
+    "global_avg_anomaly_score": -0.47658710181713104,
+    "total_flagged_across_booths": 44,
+    "per_booth_flagged": [
+      11,
+      11,
+      11,
+      11
+    ]
+  }
+]
